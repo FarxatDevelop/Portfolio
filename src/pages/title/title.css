@@ -1,0 +1,23 @@
+.title {
+  height: 110px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  background-color: #000;
+}
+.title h1 {
+  font-size: 45px;
+  text-align: center;
+  font-family: 'Josefin Sans', sans-serif;
+}
+@media (max-width: 733px) {
+  .title h1 {
+    font-size: 38px;
+  }
+}
+@media (max-width: 366px) {
+  .title h1 {
+    font-size: 33px;
+  }
+}
